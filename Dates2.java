@@ -5,7 +5,7 @@ import java.util.Scanner;
 and retrieve it. Additionally this currently can only save one line of input for the agenda at a time, and it's very
 vulnerable to improperly formatted/mistyped inputs from the user. More of a minimal viable product than an actual
 finished project. */
-public class Dates{
+public class Dates2{
   //These are all static arrays for each month containing a block for each day in the respective month.
   static String[] jan = new String[31];
   static String[] feb = new String[28];
