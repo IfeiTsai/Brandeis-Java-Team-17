@@ -23,7 +23,7 @@ public static void checkAgenda(){
   System.out.printf("%n Great! there are %d items on the agenda for %s %d is \"",checkAgenda.length-1,month,day+1);
   System.out.printf("%n Your agenda for %s %d is \"",month,day+1);
   for(int i=0; i<checkAgenda.length; i++){
-  System.out.printf(checkAgenda[i])
+  System.out.printf(checkAgenda[i] %n)
   }
 
   System.out.printf("\"");
