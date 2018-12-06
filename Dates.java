@@ -2,10 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.*;
 
-/*major concerns: This will all dissapear once the program ends, we need to find a way to save information to a file
-and retrieve it. Additionally this currently can only save one line of input for the agenda at a time, and it's very
-vulnerable to improperly formatted/mistyped inputs from the user. More of a minimal viable product than an actual
-finished project. */
 public class Dates{
   //These are all static arrays for each month containing a block for each day in the respective month.
   static String[] jan = new String[31];
@@ -82,8 +78,6 @@ public class Dates{
     String month = console.next();
     int day = console.nextInt()-1;
     System.out.println("Great! Now please enter the agenda/notes you would like to make");
-  //For some reason the program didn't wait for a new input here, and just ended the program, so I
-  //Made a temporary fix by creating a new Scanner. Not sure what the original problem was though.
     Scanner input = new Scanner(System.in);
     String agenda = input.nextLine();
 
